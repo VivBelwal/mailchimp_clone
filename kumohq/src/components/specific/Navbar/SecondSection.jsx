@@ -5,19 +5,20 @@ import LoginButton from '../../common/LoginButton';
 import MenuButton from './MenuButton';
 
 const SecondSection = () => {
-    const elements = "flex justify-between items-center p-[8px] text-[13px] leading-[14.3px] gap-[5px] hover:bg-blue-100 rounded-[10px] cursor-pointer";
+    const elements = "flex justify-between items-center p-[8px] text-[13px] leading-[14.3px] gap-[10px] hover:bg-blue-100 rounded-[5px] cursor-pointer";
    const display = "xl:flex hidden";
    
     
   return (
-    <section className='w-[50%] flex xl:justify-between justify-end gap-[1rem]  items-center'>
+    <section className='w-[50%] flex xl:justify-evenly justify-end gap-[1rem]  items-center'>
 
         <div className={`${elements} ${display}`}>
             <box-icon name='search'></box-icon>
         </div>
         <div className={`${elements} ${display}`}>
             <p>EN</p>
-            <box-icon name='chevron-down' ></box-icon>
+            <img src="https://mailchimp.com/release/plums/cxp/images/global_nav/icon-caret-down.ca1e2922.1.svg" alt="down_arrow" className='w-[12px] h-[8px]' />
+
         </div>
         <div className={`${elements} ${display}`}>
         <p>Sales: +1 (800) 315-5939</p>

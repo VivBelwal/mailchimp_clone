@@ -2,6 +2,7 @@ import React from "react";
 import personalized from "../../../assets/Images/personalized.avif";
 import "boxicons";
 import arrow from "../../../assets/Images/arrow_icon.svg";
+import style from "../../../styles/HoverAnimation.module.css"
 const Personalized = () => {
   const dimension = `lg:w-[90%] bg-[#f6f6f4] lg:bg-[#fff] lg:m-[auto] m-[.75rem] rounded-[8px] sm:py-[5rem] py-[2rem] `;
   const typography = `text-[#241C15] text-[16px] leading-[25.6px] `;
@@ -22,8 +23,8 @@ const Personalized = () => {
           An onboarding specialist is here to help you get started with
           confidence—it’s included with Standard and Premium plans.*
         </p>
-        <div className="flex flex-row gap-[15px] justify-between items-center hover:bg-[#FFE01B] rounded-[25px]  group/shift">
-          <p className="group-hover/shift:pl-[8px]">
+        <div className={`flex flex-row gap-[15px] justify-between items-center hover:bg-[#FFE01B] rounded-[25px]  group/shift ${style.bgHover} cursor-pointer`} >
+          <p className={`group-hover/shift:pl-[8px]  `}>
             {" "}
             Learn more about onboarding
           </p>

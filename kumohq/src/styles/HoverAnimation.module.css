@@ -1,0 +1,17 @@
+.hover_effect {
+   transform: translateY(0);
+   box-shadow: 0;
+transition: transform .3s cubic-bezier(.5,2.5,.7,.7),box-shadow .3s cubic-bezier(.5,2.5,.7,.7),-webkit-transform .3s cubic-bezier(.5,2.5,.7,.7),-webkit-box-shadow .3s cubic-bezier(.5,2.5,.7,.7);
+
+}
+
+.hover_effect:hover{
+transform: translateY(-5px);   
+box-shadow: 0 3px 0 0  #241c15; 
+
+}
+
+.bgHover{
+    transition: background-color .15s ease-in-out, transform .3s ease, -webkit-transform .3s ease;
+
+}
