@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global.css */
+
+
+*
+ {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+  
+ 
+  
+}
+
+.font_family{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+
+
+
+
